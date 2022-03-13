@@ -1,0 +1,27 @@
+@font-face {
+    font-family: valorant;
+    src: url('../fonts/Valorant-Font.ttf');
+}
+body{
+    background-color: rgb(0,7,14);
+    font-family: 'Secular One', sans-serif;
+    background-image: url('../contents/background.jpg');
+    background-repeat: no-repeat;
+}
+.nav-link {
+    color: white !important;
+}
+.nav-link:hover, .active{
+    color: rgb(80, 109, 246) !important;
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+.fa:hover {
+    opacity: 0.7;
+}
